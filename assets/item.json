@@ -1,0 +1,154 @@
+{
+    "products": [
+        {
+            "name": "Foot Fetish",
+            "price": 100,
+            "description": "Product 1 description",
+            "image": [
+                "https://parspng.com/wp-content/uploads/2023/02/shoespng.parspng.com_.png"
+            ],
+            "color": {
+                "count": 2,
+                "data": [
+                    {
+                        "color": "Green",
+                        "code": "0xFF53AE71",
+                        "price": 200
+                    },
+                    {
+                        "color": "Blue",
+                        "code": "0xFF53AE71",
+                        "price": 300
+                    }
+                ]
+            },
+            "size": {
+                "count": 2,
+                "data": [
+                    "S",
+                    "XL"
+                ]
+            }
+        },
+        {
+            "name": "Product 2",
+            "price": 200,
+            "description": "Product 2 description",
+            "image": [
+                "https://freepngimg.com/thumb/categories/627.png"
+            ],
+            "color": {
+                "count": 2,
+                "data": [
+                    {
+                        "color": "Green",
+                        "code": "0xFF53AE71",
+                        "price": 200
+                    },
+                    {
+                        "color": "Blue",
+                        "code": "0xFF53AE71",
+                        "price": 300
+                    }
+                ]
+            },
+            "size": {
+                "count": 2,
+                "data": [
+                    "S",
+                    "XL"
+                ]
+            }
+        },
+        {
+            "name": "Product 3",
+            "price": 100,
+            "description": "Product 1 description",
+            "image": [
+                "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/019/424/279/original/880555_402.png.png"
+            ],
+            "color": {
+                "count": 2,
+                "data": [
+                    {
+                        "color": "Green",
+                        "code": "0xFF53AE71",
+                        "price": 200
+                    },
+                    {
+                        "color": "Blue",
+                        "code": "0xFF53AE71",
+                        "price": 300
+                    }
+                ]
+            },
+            "size": {
+                "count": 2,
+                "data": [
+                    "S",
+                    "XL"
+                ]
+            }
+        },
+        {
+            "name": "Product 4",
+            "price": 100,
+            "description": "Product 1 description",
+            "image": [
+                "https://fgl.scene7.com/is/image/FGLSportsLtd/332256953_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=528&resMode=sharp&qlt=85,1&op_sharpen=1"
+            ],
+            "color": {
+                "count": 2,
+                "data": [
+                    {
+                        "color": "Green",
+                        "code": "0xFF53AE71",
+                        "price": 200
+                    },
+                    {
+                        "color": "Blue",
+                        "code": "0xFF53AE71",
+                        "price": 300
+                    }
+                ]
+            },
+            "size": {
+                "count": 2,
+                "data": [
+                    "S",
+                    "XL"
+                ]
+            }
+        },
+        {
+            "name": "Product 4",
+            "price": 100,
+            "description": "Product 1 description",
+            "image": [
+                "https://www.pngall.com/wp-content/uploads/5/Men-Shoes.png"
+            ],
+            "color": {
+                "count": 2,
+                "data": [
+                    {
+                        "color": "Green",
+                        "code": "0xFF53AE71",
+                        "price": 200
+                    },
+                    {
+                        "color": "Blue",
+                        "code": "0xFF53AE71",
+                        "price": 300
+                    }
+                ]
+            },
+            "size": {
+                "count": 2,
+                "data": [
+                    "S",
+                    "XL"
+                ]
+            }
+        }
+    ]
+}

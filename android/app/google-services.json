@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "768349962577",
+    "project_id": "shop-app-thinknext",
+    "storage_bucket": "shop-app-thinknext.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768349962577:android:2cc7753a837e2909b95370",
+        "android_client_info": {
+          "package_name": "com.example.shop_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYD4sfDVN2d95SvH8aJFH_3oxnxafLoaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
