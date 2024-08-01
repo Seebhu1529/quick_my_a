@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app/widgets/HomeAppBar.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-
 // Providers
 import '../widgets/product_widget.dart';
 import '/services/api/api_service.dart';
@@ -11,6 +10,7 @@ import '../models/product_search.dart';
 import '/theme.dart';
 import '/widgets/CategoriesWidgets.dart';
 import '../models/product.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -125,7 +125,23 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ],
-
+    );
+  }
+  // BottomNavigationBar
+  Widget BottomNavigationBar() {
+    return CurvedNavigationBar(
+      color: MyTheme.primaryColor,
+      buttonBackgroundColor: MyTheme.primaryColor,
+      backgroundColor: Colors.white,
+      height: 60,
+      items: <Widget>[
+        Icon(Icons.home_outlined, size: 30),
+        Icon(Icons.shopping_cart_outlined, size: 30),
+        Icon(Icons.search_outlined, size: 30),
+        Icon(Icons.people_outline, size: 30),
+      ],
+      index: 0,
+      onTap: (index) {},
     );
   }
 }
