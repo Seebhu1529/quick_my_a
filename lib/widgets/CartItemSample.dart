@@ -89,6 +89,15 @@ class CartItemSample extends StatelessWidget {
                               size: 20,
                             ),
                           ),
+                          SizedBox(width: 5),
+                          Container(
+                            child: Text("1",
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xFF4C53A5),),
+                            ),
+                          ),
                           Container(
                             padding: const EdgeInsets.all(4),
                             decoration: BoxDecoration(
@@ -134,7 +143,7 @@ class CartItemSample extends StatelessWidget {
                   height: 200,
                   width: 50,
                   margin: const EdgeInsets.symmetric(horizontal: 10),
-                  child: Image.asset("assets/images/3.jpeg"),
+                  child: Image.asset("assets/images/2.jpeg"),
                 ),
                 const Padding(
                   padding: EdgeInsets.symmetric(vertical: 10),
@@ -143,10 +152,11 @@ class CartItemSample extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Apple Smart Watch",
+                        "Man Leather Wallet",
                         style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
+                          color: Color(0xFF4C53A5),
                         ),
                       ),
                       Text(
@@ -158,7 +168,7 @@ class CartItemSample extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Quantity: 1",
+                        "Quantity: 2",
                       )
                     ],
                   ),
@@ -193,6 +203,15 @@ class CartItemSample extends StatelessWidget {
                               size: 20,
                             ),
                           ),
+                          SizedBox(width: 5),
+                          Container(
+                            child: Text("2",
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xFF4C53A5),),
+                              ),
+                            ),
                           Container(
                             padding: const EdgeInsets.all(4),
                             decoration: BoxDecoration(
@@ -238,7 +257,7 @@ class CartItemSample extends StatelessWidget {
                   height: 200,
                   width: 50,
                   margin: const EdgeInsets.symmetric(horizontal: 10),
-                  child: Image.asset("assets/images/3.jpeg"),
+                  child: Image.asset("assets/images/5.jpeg"),
                 ),
                 const Padding(
                   padding: EdgeInsets.symmetric(vertical: 10),
@@ -247,10 +266,11 @@ class CartItemSample extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Apple Smart Watch",
+                        "Ladies Bag black Color",
                         style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
+                          color: Color(0xfF4C53A5),
                         ),
                       ),
                       Text(
@@ -294,6 +314,16 @@ class CartItemSample extends StatelessWidget {
                             child: const Icon(
                               CupertinoIcons.plus,
                               size: 20,
+                            ),
+                          ),
+                          SizedBox(width: 5),
+                          Container(
+                            child: Text("1",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              color: Color(0xFF4C53A5),
+                            ),
                             ),
                           ),
                           Container(
