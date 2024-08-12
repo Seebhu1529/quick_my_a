@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
+import 'package:shop_app/theme.dart';
 
 class HomeAppBar extends StatelessWidget {
   const HomeAppBar({super.key});
@@ -13,14 +14,14 @@ class HomeAppBar extends StatelessWidget {
         children: [
           const Icon(Icons.sort,
             size: 30,
-            color: Color(0xFF4C53A5),
+            color: Color(0xFF53AE71),
           ),
           const Padding(padding: EdgeInsets.only(left: 20),
             child: Text("Quick Shop",
               style: TextStyle(
                 fontSize: 23,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF4C53A5),
+                color: Color(0xFF53AE71),
               ),
             ),
           ),
@@ -37,7 +38,7 @@ class HomeAppBar extends StatelessWidget {
               },
               child: const Icon(Icons.shopping_bag_outlined,
                 size: 30,
-                color: Color(0xFF4C53A5),
+                color: Color(0xFF53AE71),
               ),
             ),
           ),
@@ -53,7 +54,7 @@ class HomeAppBar extends StatelessWidget {
               },
               child: const Icon(Icons.notifications_outlined,
                 size: 30,
-                color: Color(0xFF4C53A5),
+                color: Color(0xFF53AE71),
               ),
             ),
           ),

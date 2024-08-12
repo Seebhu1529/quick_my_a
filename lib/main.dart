@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
         'Notification': (BuildContext context) => const NotificationPage(),
         'Cartpage': (BuildContext context) => const CartPage(),
       },
-      home: HomePage(),
+      home: SignInScreen(),
     );
   }
 }

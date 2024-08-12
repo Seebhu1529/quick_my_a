@@ -139,7 +139,7 @@ class _HomePageState extends State<HomePage> {
         Icon(Icons.home_outlined, size: 30),
         Icon(Icons.shopping_cart_outlined, size: 30),
         Icon(Icons.search_outlined, size: 30),
-        Icon(Icons.people_outline, size: 30),
+        Icon(Icons.person_3_outlined, size: 30),
       ],
       index: 0,
       onTap: (index) {},
